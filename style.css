@@ -23,6 +23,7 @@ body {
     cursor: pointer;
     text-decoration: none;
     transition: 0.3s ease-in-out;
+
 }
 
 .button:hover {
@@ -104,3 +105,46 @@ header .header-title {
         padding: 50px 0;
     }
 } 
+ /* Content design */
+ form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    
+ }
+ form input{
+     width: 50%;
+     margin-left: 5px;
+     height: 30px;
+     border-radius: 4px;
+     border: 1px solid #fff;
+     font-size: 16px;
+ }
+ form .button {
+     padding-left: 30px;
+     padding-right: 30px;
+     margin-left: 5px;
+ }
+ /* Media-queries */
+ @media (max-width: 700px) {
+    form{
+        flex-direction: column;
+        align-content: space-around;
+        border: 0px solid #fff;
+    }
+    form input{
+        width: 90%;
+        margin-bottom: 10px;
+        margin-left: 0px;
+       
+    }
+   form .button {
+       width: 80%;
+        margin-left: 0px; 
+        text-align: center;
+    }
+    }
+    /* Section dalis */
+
+    
