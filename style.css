@@ -167,9 +167,11 @@ header .header-title {
         text-align: center;
         padding-left: 0px;
         padding-right: 0px;
+        color:rgb(88, 86, 86);
     }
     .icon h2{
         margin-bottom: 10px;
+        color: black;
     }
 
      /* Media-queries */
@@ -350,6 +352,7 @@ header .header-title {
     .people p{
         text-align: center;
         flex-wrap: wrap;
+        color:rgb(88, 86, 86);
     }
       /* Media-queries */
       @media (max-width: 700px) {
@@ -395,6 +398,7 @@ header .header-title {
             padding-left: 40px;
             padding-right: 40px;
             margin-bottom: 40px;
+            
         }
     }
 
@@ -496,3 +500,68 @@ header .header-title {
     }
 
     /* Footer design */
+
+
+    /* Soc.tinklu ikonu css */
+    .svg-icon {
+        width: 2em;
+        height: 2em;
+        padding-left: 15px;
+      }
+      
+      .svg-icon path,
+      .svg-icon polygon,
+      .svg-icon rect {
+        fill: #4691f6;
+      }
+      
+      .svg-icon circle {
+        stroke: #4691f6;
+        stroke-width: 1;
+      }
+
+      .footer{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-around;
+        padding-top: 30px;
+        padding-bottom: 50px;
+      }
+      .link{
+          padding-left: 5px;
+          text-decoration: none;
+          color: #4691f6;
+      }
+      span{
+          color: black;
+          padding-right: 5px;
+      }
+      .copy{
+          color: rgb(88, 86, 86);
+          font-size: 12px;
+      }
+
+      /* Media-queries */
+ 
+    @media (max-width: 700px) {
+        .footer{
+            display: flex;
+            flex-direction:column;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            padding-left: 0px;
+        }
+        .ft{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+            padding-top: 40px;
+        }
+        .contacts{
+            display: flex;
+            justify-content: center;
+            padding-top: 10px;
+            padding-bottom: 40px;
+        }
+    }
