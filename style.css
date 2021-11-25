@@ -104,6 +104,7 @@ header .header-title {
     .hero {
         padding: 50px 0;
     }
+    
 } 
  /* Content design */
  form{
@@ -507,8 +508,10 @@ header .header-title {
         width: 2em;
         height: 2em;
         padding-left: 15px;
+        cursor: pointer;
       }
       
+
       .svg-icon path,
       .svg-icon polygon,
       .svg-icon rect {
